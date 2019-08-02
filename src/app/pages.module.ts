@@ -10,6 +10,9 @@ import { pages_routes } from './pages/pages.routes';
 import { FormsModule } from "@angular/forms";
 import { IncrementadorComponent } from './components/incrementador/incrementador.component';
 import { GraficoDonaComponent } from './components/grafico-dona/grafico-dona.component';
+import { AccountSettingsComponent } from './pages/account-settings/account-settings.component';
+
+
 
 
 
@@ -20,7 +23,8 @@ import { GraficoDonaComponent } from './components/grafico-dona/grafico-dona.com
         Graficas1Component,
         PagesComponent,
         IncrementadorComponent,
-        GraficoDonaComponent
+        GraficoDonaComponent,
+        AccountSettingsComponent
     ],
     exports:[
         DashboardComponent,
@@ -32,6 +36,7 @@ import { GraficoDonaComponent } from './components/grafico-dona/grafico-dona.com
         pages_routes,
         FormsModule,
         ChartsModule,
+        
     ]
 })
 
