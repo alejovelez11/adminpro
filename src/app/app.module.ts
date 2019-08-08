@@ -4,7 +4,7 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { app_routes } from "./app.routes";
 import { RegisterComponent } from './login/register.component';
-import { PagesModule } from "./pages.module";
+import { PagesModule } from "./pages/pages.module";
 import { FormsModule } from '@angular/forms';
 
 
