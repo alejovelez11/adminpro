@@ -6,6 +6,8 @@ import { NopagefoundComponent } from './nopagefound/nopagefound.component';
 import { RouterModule } from '@angular/router';
 // el CommonModule es todas la directivas de angular
 import { CommonModule } from '@angular/common';
+import { ImagenPipe } from '../pipes/imagen.pipe';
+import { PipesModule } from '../pipes/pipes.module';
 
 
 @NgModule({
@@ -13,7 +15,7 @@ import { CommonModule } from '@angular/common';
         HeaderComponent,
         SidebarComponent,
         BreadcrumbsComponent,
-        NopagefoundComponent
+        NopagefoundComponent,
     ],
     exports:[
         HeaderComponent,
@@ -23,7 +25,8 @@ import { CommonModule } from '@angular/common';
     ],
     imports:[
         RouterModule,
-        CommonModule
+        CommonModule,
+        PipesModule
     ]
 })
 
